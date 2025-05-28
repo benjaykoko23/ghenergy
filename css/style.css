@@ -1,0 +1,86 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background: #002e5b;  /* deep-blue */
+  color: #fff;
+  padding: 1rem 0;
+}
+.site-header .logo {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.site-nav {
+  float: right;
+}
+.site-nav a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  background: url('https://via.placeholder.com/1600x600') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 0;
+}
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Sections */
+section {
+  padding: 3rem 0;
+}
+section h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #002e5b;
+}
+
+/* Services list */
+.services ul {
+  list-style: disc inside;
+}
+
+/* Projects grid */
+.project-grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.project-card {
+  flex: 1 1 calc(33% - 1rem);
+  background: #f5f5f5;
+  padding: 0.5rem;
+  text-align: center;
+}
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+.site-footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
